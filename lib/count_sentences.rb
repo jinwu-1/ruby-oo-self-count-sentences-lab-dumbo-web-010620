@@ -29,4 +29,5 @@ class String
   def count_sentences
     string = self.sentence? + self.question? + self.exclamation?
   end
+  string
 end
